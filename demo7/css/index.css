@@ -1,0 +1,24 @@
+.fr-con .title p{
+	font-size: 25px;
+	padding:3px;
+	float: left;
+	}
+	.fr-con .news-con{
+		clear: both;
+		width: 800px;
+		margin: 0 auto;
+		text-align: left;
+	}
+	.fr-con .news-con h3{
+		text-align: center;
+		margin:20px 0 20px 0;
+		font-size: 25px;
+		font-weight: 400;
+	}
+	.fr-con .news-con p{
+		font-size: 20px;
+		font-style: italic;
+		text-indent: 30px;
+		line-height: 35px;
+		margin-bottom: 30px;
+	}

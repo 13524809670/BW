@@ -1,0 +1,42 @@
+/*图片样式*/
+/*.fr-con .title img{
+	float: left;
+	padding:5px;
+	width:30px;
+	height:30px;
+	display: inline-block;
+	}*/
+.con-wrap{
+	clear: both;
+	width: 800px;
+	margin: 20px auto;
+	}
+	.con-fl{
+		float: left;
+		display: inline-block;
+	}
+	.con-fl img{
+		width:400px;
+		height:470px;
+		margin-top:3px;
+	}
+	.con-fr{
+		width: 350px;
+		float: left;
+		margin-left: 18px;
+	}
+
+	.con-fr p,.last-p p{
+		font-size: 16px;
+		padding-top: 6px;
+		text-indent: 26px;
+		line-height: 26px;
+	}
+	.con-fr .first-p{
+		font-weight: 400px;
+		font-size: 23px;
+	}
+	.con-fr .last-p{
+		clear: both;
+	}
+

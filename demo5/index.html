@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>作业-five</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="../public-style.css">
+	<link rel="stylesheet" href="css/one.css" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/index.js"></script>
+	<style type="text/css">
+		.fr-con{
+			height: 770px;
+			margin:0 auto 200px;
+		}
+		.fr-con .title .icon-a{
+			color:#90c;
+		}
+		.pageTest{ width: 1000px; height: 50px; margin-top: 100px;    }
+	    .activP{
+	      background-color: #367fa9!important;
+	      color: #fff!important;
+	    }
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="top-wrap">
+			<div class="top-con">
+				<img src="../images/pic_03.gif" alt="" style="width:65px;height:80px;" />
+				<div class="search">
+					<input type="text" value="" />
+					<button class="submit">&#xf02e;</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="head-nav">
+			<ul>
+				<li><a href="../demo3/index.html">首页</a></li>
+				<li><a href="../demo1/index.html">公司介绍</a></li>
+				<li><a href="../demo2/index.html">新闻中心</a></li>
+				<li class="on"><a href="../demo2/index.html">产品中心</a></li>
+				<li><a href="../demo4/index.html">联系我们</a></li>
+			</ul>
+		</div>
+
+		<div class="banner">
+			<img src="../images/a1_03.jpg" alt="" style="width:100%;height:500px;" />
+		</div>
+
+		<div class="mainbody">
+			<div class="header-nav">
+				<ul>
+					<li>当前位置:</li>
+					<li>首页></li>
+					<li>产品中心></li>
+					<li>产品展示</li>
+				</ul>
+			</div>
+			<div class="main-con">
+				<div class="fl-nav">
+					<ul>
+						<li>
+							<img src="../images/pic_15.gif" alt="" />
+							<a href="../demo2/index.html">产品中心</a>
+						</li>
+						<li class="icon-a">
+							<span></span>
+							<a href="#">产品流程</a>
+						</li>
+						<li class="icon-a">
+							<span></span>
+							<a href="../demo6/index.html">产品动态</a>
+						</li>
+						<li>
+							<span class="font-icon"></span>
+							<a href="../demo5/index.html">产品展示</a>
+						</li>
+					</ul>	
+				</div>
+				<div class="fr-con-wrap">
+					<div class="fr-con">
+						<div class="title">
+							<span class="icon-a">&#xf00e;</span>
+							<p>产品展示</p>
+							<span class="icon"></span>
+						</div>
+						<div class="pic-box">
+							<div class="box two">
+								<img src="../images/9_03.jpg" alt="" />
+								<div class="cover caption">
+									<h3>w3school.com.cn</h3>
+								</div>
+							</div>
+							<div class="box two">
+								<img src="../images/9_03.jpg" alt="" />
+								<div class="cover caption">
+									<h3>w3school.com.cn</h3>
+								</div>
+							</div>
+							<div class="box two">
+								<img src="../images/9_03.jpg" alt="" />
+								<div class="cover caption">
+									<h3>w3school.com.cn</h3>
+								</div>
+							</div>
+							<div class="box two">
+								<img src="../images/9_03.jpg" alt="" />
+								<div class="cover caption">
+									<h3>w3school.com.cn</h3>
+								</div>
+							</div>
+							<div class="box two">
+								<img src="../images/9_03.jpg" alt="" />
+								<div class="cover caption">
+									<h3>w3school.com.cn</h3>
+								</div>
+							</div>
+							<div class="box two">
+								<img src="../images/9_03.jpg" alt="" />
+								<div class="cover caption">
+									<h3>w3school.com.cn</h3>
+								</div>
+							</div>
+							<!-- <div class="pageTest"></div> -->
+						</div>
+						<!-- <div class="page-wrap"> -->
+							<div class="pageTest"></div>
+						<!-- </div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<span class="span">&copy;2013-2016广州保瓦电子科技有限公司 版权所有</span>
+			<span>技术支持:企业官网</span>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		$('.pageTest').page({
+      leng: 66,//分页总数
+      activeClass: 'activP' , //active 类样式定义
+    })
+	</script>
+</body>
+</html>
