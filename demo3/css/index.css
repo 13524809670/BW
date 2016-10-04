@@ -1,3 +1,4 @@
+/*body,div,ul,li,h4,p{margin:0;padding:0;}*/
 h2{
 	font-size: 36px;
 	letter-spacing: 10px;
@@ -65,8 +66,8 @@ h4{
 	width: 100%;
 	}
 	.banner-box{
-		background: rgba(0,0,0,0.8);
-		height: 600px;
+		background: rgba(0,0,0,0.9);
+		height: 510px;
 	}
 
 .news{
@@ -145,7 +146,7 @@ h4{
 .contact{
 	width: 100%;
 	background: #333;
-	padding: 100px 0;
+	padding: 60px 0;
 	}
 	.contact-wrap{
 		width: 1200px;

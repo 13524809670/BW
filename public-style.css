@@ -263,12 +263,20 @@ html,body{
 		line-height: 80px;
 		background:#000;
 		}
-
+		.footer-box{
+			width: 1200px;
+			height: 100%;
+			margin: 0 auto;
+		}
 		.footer span{
 			color:#d8d8d8;
 			font-size:14px;
-			margin-left: 17%;
 		}
-		.footer .span{
-			margin-right: 24.7%;
+		.footer-box span:first-child{
+			margin-right: 63%;
 		}
+		/*第二样式*/
+		/*.footer-box span:last-child{
+			float: right;
+		}*/
+		

@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>作业-three</title>
+	<title>保瓦-three</title>
+	<!-- body样式 -->
 	<link rel="stylesheet" href="css/index.css" />
-	<link rel="stylesheet" href="css/banner.css" />
 	<link rel="stylesheet" href="../public-style.css" />
+	<!-- top轮播图样式及 js-->
+	<link rel="stylesheet" href="css/banner.css" />
 	<script src="js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
+
+	<!-- body焦点轮播图样式及 js -->
+	<link rel="stylesheet" href="css/banner-two.css" />
+	<script type="text/javascript" src="js/banner-two.js"></script>
 </head>
 <body>
 	<div class="main">
@@ -41,30 +47,31 @@
 
 			<ul class="DB_imgSet">
 				<li onClick="javascript:window.location.href='http://sc.admin5.com';">
-					<img class="DB_1_1" src="images/kjzname.png" alt="">
-					<img class="DB_1_2" src="images/kjzjx.png" alt="">
-		            <img class="DB_1_3" src="images/bn_01.png" alt="">
+					<img class="DB_1_1" src="images/" alt="图片logoA" style="width:200px;height:230px;" />
+					<img class="DB_1_2" src="images/" alt="图片logoB" style="width:200px;height:230px;" />
+		            <img class="DB_1_3" src="images/" alt="图片logoC" style="width:200px;height:230px;" />
 				</li>
 
 				<li onClick="javascript:window.location.href='http://sc.admin5.com';">
-					<img class="DB_2_1" src="images/addchelun.png" alt="">
-					<img class="DB_2_2" src="images/addt.png" alt="">
-					<img class="DB_2_3" src="images/zw.png" alt="">
+					<img class="DB_2_1" src="images/" alt="图片B-1" style="width:200px;height:230px;" />
+					<img class="DB_2_2" src="images/" alt="图片B-2" style="width:200px;height:230px;" />
+					<img class="DB_2_3" src="images/" alt="图片B-3" style="width:200px;height:230px;" />
 				</li>
 
 				<li onClick="javascript:window.location.href='http://sc.admin5.com';">
-					<img class="DB_3_1" src="images/bn32.png" alt="">
-					<img class="DB_3_2" src="images/bn33.png" alt="">
-					<img class="DB_3_3" src="images/bn3.png" alt="">
+					<img class="DB_3_1" src="images/" alt="图片C-1" style="width:200px;height:230px;" />
+					<img class="DB_3_2" src="images/" alt="图片C-2" style="width:200px;height:230px;" />		
+					<img class="DB_3_3" src="images/" alt="图片C-3" style="width:200px;height:230px;" />		
 				</li>
 
 				<li onClick="javascript:window.location.href='http://sc.admin5.com';">
-					<img class="DB_4_1" src="images/bn_04.png" alt="">
-					<img class="DB_4_2" src="images/bn_042.png" alt="">
-					<img class="DB_4_3" src="images/bn_043.png" alt="">
-					<img class="DB_4_4" src="images/bn_044.png" alt="">
+					<img class="DB_4_1" src="images/" alt="图片D-1" style="width:200px;height:230px;" />
+					<img class="DB_4_2" src="images/" alt="图片D-2" style="width:200px;height:230px;" />
+					<img class="DB_4_3" src="images/" alt="图片D-3" style="width:200px;height:230px;" />
+					<!-- 每页可多次添加 html -->
+					<!-- <img class="DB_4_4" src="images/" alt="图片D-4" style="width:200px;height:230px;" /> -->
 		        </li>
-			</ul>
+		       </ul>
 			<div class="DB_menuWrap">
 				<ul class="DB_menuSet">
 					<li><img src="images/btn_off.png" alt=""></li>
@@ -72,8 +79,8 @@
 					<li><img src="images/btn_off.png" alt=""></li>
 					<li><img src="images/btn_off.png" alt=""></li>
 				</ul>
-				<div class="DB_next"><img src="images/nextArrow.png" alt="NEXT"></div>
-				<div class="DB_prev"><img src="images/prevArrow.png" alt="PREV"></div>
+				<div class="DB_next"><img src="images/nextArrow.png" alt="NEXT" /></div>
+				<div class="DB_prev"><img src="images/prevArrow.png" alt="PREV" /></div>
 			</div>
 		</div>
 		<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';"></div>
@@ -104,8 +111,17 @@
 			</div>
 			<div class="banner-box">
 				<img src="images/211_03.png" alt="" class="icon1" />
-				<div class="img">
-					焦点轮播图
+				<div id="box">
+				    <pre class="prev">prev</pre>
+				    <pre class="next">next</pre>
+				    <ul>
+				        <li><img src="images/ss1_03.jpg" /></li>
+				        <li><img src="images/2121_03.jpg" /></li>
+				        <li><img src="images/a31_03.jpg" /></li>
+				        <li><img src="images/v31_03.jpg" /></li>
+				        <li><img src="images/z1_03.jpg" /></li>
+				        <li><img src="images/a31_03.jpg" /></li>
+				    </ul>
 				</div>
 			</div>
 		</div>
@@ -184,8 +200,10 @@
 		</div>
 
 		<div class="footer">
-			<span class="span">&copy;2013-2016广州保瓦电子科技有限公司 版权所有</span>
-			<span>技术支持:企业官网</span>
+			<div class="footer-box">
+				<span class="span">&copy;2013-2016广州保瓦电子科技有限公司 版权所有</span>
+				<span>技术支持:企业官网</span>
+			</div>
 		</div>
 	</div>
 	<script type="text/javascript">

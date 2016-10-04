@@ -39,10 +39,8 @@
         } else {
           str1 = '<li><a href="javascript:" class="'+ opts.activeClass +'">1</a></li>';
         }
-        // obj.html('<div class="next" style="float:left">' + opts.next + '</div><div class="last" style="float:left">' + opts.lastPage + '</div><ul class="pagingUl">' + str1 + str + '</ul><div class="first" style="float:left">' + opts.firstPage + '</div><div class="prv" style="float:left">' + opts.prv + '</div>');
+        obj.html('<div class="next" style="float:right;">' + opts.next + '</div><div class="last" style="float:right">' + opts.lastPage + '</div><ul class="pagingUl">' + str1 + str + '</ul><div class="first" style="float:right">' + opts.firstPage + '</div><div class="prv" style="float:right">' + opts.prv + '</div>');
 
-        odj.html('<div class="prv" style="float:left">' + opts.prv + '</div><div class="first" style="float:left">' + opts.firstPage + '</div><ul class="pagingUl">' + str + str1 + '</ul><div class="last" style="float:left">' + opts.lastPage + '</div><div class="next" style="float:left">' + opts.next + '</div>');
-        
         obj.on('click', '.next', function () {
           var pageshow = parseInt($('.' + opts.activeClass).html());
           if(pageshow == l) {

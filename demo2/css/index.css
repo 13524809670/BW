@@ -1,15 +1,7 @@
-/*图片样式*/
-/*.fr-con .title img{
-	float: left;
-	padding:5px;
-	width:30px;
-	height:30px;
-	display: inline-block;
-	}*/
 .con-wrap{
 	clear: both;
 	width: 800px;
-	margin: 20px auto;
+	margin: 40px auto;
 	}
 	.con-fl{
 		float: left;
@@ -18,7 +10,8 @@
 	.con-fl img{
 		width:400px;
 		height:470px;
-		margin-top:3px;
+		margin:3px 10px 0 0;
+
 	}
 	.con-fr{
 		width: 350px;
